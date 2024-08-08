@@ -18,4 +18,4 @@ This Discord bot manages the Global Chats system between Dropout-related Discord
 - [ ] #5
 - [ ] #6
 - [ ] #7
-- [ ] [#8](https://github.com/ScytedTV-Studios/LH-GlobalChats/issues/8)
+- [ ] https://github.com/ScytedTV-Studios/LH-GlobalChats/issues/8
