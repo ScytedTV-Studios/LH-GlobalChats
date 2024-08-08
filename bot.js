@@ -74,9 +74,9 @@ client.on('ready', () => {
 client.on('messageCreate', async (message) => {
     if (message.author.bot) return;
 
-    if (message.content.startsWith('!live broadcast ') && message.author.id === '852572302590607361') {
+    if (message.content.startsWith('!global broadcast ') && message.author.id === '852572302590607361') {
         message.delete();
-        const broadcastMessage = message.content.match(/!live broadcast "(.*)"/);
+        const broadcastMessage = message.content.match(/!global broadcast "(.*)"/);
         if (broadcastMessage) {
             const textToSend = broadcastMessage[1];
             const embed = new MessageEmbed()
@@ -94,7 +94,7 @@ client.on('messageCreate', async (message) => {
         return;
     }
 
-    if (message.content.startsWith('!live')) {
+    if (message.content.startsWith('!global')) {
         if (!message.member.permissions.has('MANAGE_GUILD')) {
             return message.reply('You do not have permission to use this command.');
         }
