@@ -9,13 +9,4 @@ This Discord bot manages the Global Chats system between Dropout-related Discord
 - Join the global chat network with the `!global` command.
 - Send messages between servers using Webhooks.
 
-**To-Do List:**
-
-- [ ] #1
-- [ ] #2
-- [ ] #3
-- [ ] #4
-- [ ] #5
-- [ ] #6
-- [ ] #7
-- [ ] https://github.com/ScytedTV-Studios/LH-GlobalChats/issues/8
+**To-Do List:** https://github.com/ScytedTV-Studios/LH-GlobalChats/issues/
